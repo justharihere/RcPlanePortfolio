@@ -10,7 +10,7 @@ A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled af
 
 **[→ Open the interactive CAD model](https://a360.co/45A5CbB)**
 
-![CAD model screenshot](./media/plane-cad-screenshot.png)
+![CAD model screenshot](./plane.png)
 
 ---
 
@@ -23,25 +23,25 @@ A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled af
 
 ## Fabrication Process
 
-- **Flattened** the 3D CAD model — unfolded the airframe's surfaces into flat, 2D cut patterns matching the foam board thickness, the same way a sheet-metal part gets unfolded into a flat pattern before cutting
-- Several of these cut patterns ran nearly a meter long — longer than a standard printer page, and tiling multiple printed sheets together introduced enough misalignment to throw off the cut tolerances
-- Solved this by exporting the flattened patterns to true scale as engineering blueprints (via Adobe PDF software) and having them printed full-size on engineering paper at Staples — this eliminated both the page-size limit and the sheet-alignment error in one step
+- **Flattened** the 3D CAD model — unfolded the airframe's surfaces into flat, 2D cut patterns matching the foam board thickness, taking inspiration from how a sheet metal part is processed for cutting.
+- Many cut patterns ran longer than a standard printer page, and tiling multiple printed sheets together introduced misalignment.
+- Solved this by exporting the flattened patterns to true scale as engineering blueprints (via Adobe PDF software) and having them printed full-size on engineering paper at Staples.
 - Hand-cut the entire airframe from 5 mm foam board using the full-scale prints directly as templates
 
 ## Materials & Weight
 
 | Part | Spec | Qty | Weight |
 |---|---|---|---|
-| A2212 1000KV Brushless Motor | 2–3S outrunner | 1 | ~55 g |
-| 1045 Propeller | 10x4.5 in | 1 | ~12 g |
-| 11.1V 2000mAh 3S LiPo Battery | matched to motor | 1 | ~155 g |
-| FlySky FS-i6B Receiver | 6-channel, AFHDS 2A | 1 | ~15 g |
-| FlySky FS-i6 Transmitter | 6-channel, handheld | 1 | ~392 g (ground unit, not onboard) |
-| Servo | assumed 9 g micro class | 4 | ~36 g total |
-| Carbon Fiber Spar | 420 mm, 6 mm OD / 4 mm ID | 2 | ~21 g total (calculated from tube geometry) |
-| Foam Board | 5 mm, standard 20"×30" sheet | 2 | ~210 g/sheet before cutting |
+| A2212 1000KV Brushless Motor | 2–3S outrunner | 1 | 55 g |
+| 1045 Propeller | 10x4.5 in | 1 | 12 g |
+| 11.1V 2000mAh 3S LiPo Battery | matched to motor | 1 | 155 g |
+| FlySky FS-i6B Receiver | 6-channel, AFHDS 2A | 1 | 15 g |
+| FlySky FS-i6 Transmitter | 6-channel, handheld | 1 | N/A |
+| Servo | 9g micro class | 4 | 36 g total |
+| Carbon Fiber Spar | 420 mm, 6 mm OD / 4 mm ID | 2 | 21 g total (calculated from tube geometry) |
+| Foam Board | 5 mm, 20"×30" sheet | 2 | 210 g/sheet|
 
-**Estimated onboard weight** (motor + propeller + battery + receiver + servos + spars, excluding uncut foam and the handheld transmitter): **≈ 294 g**, plus the mass of the cut airframe itself.
+**Onboard weight: 294g**
 
 ## Specs
 
@@ -51,25 +51,11 @@ A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled af
 | Cruise speed | ~10.5 m/s |
 | Design inspiration | B-29 Superfortress (proportional dimensions) |
 | Airfoil source | UIUC NACA airfoil database |
-| Motor configuration | Single engine, A2212 1000KV + 1045 prop |
-| Airframe material | 5 mm foam board |
+| Motor configuration | Single engine, A2212 1000KV, 1045 prop |
+| Airframe material | 5 mm foam board with kraft paper layers|
 
 ## Media
 
 *(To be added — build photos and flight footage)*
 
 ---
-
-## Repo Structure
-
-```
-rc-plane/
-├── README.md
-├── cad/              # Fusion/Onshape export files (.f3d, .step, .stl)
-├── cut-patterns/     # flattened sketches / blueprint PDFs sent to print
-├── media/
-│   ├── plane-cad-screenshot.png
-│   ├── build-photos/
-│   └── video/
-└── docs/             # airfoil data, weight/CG notes
-```
