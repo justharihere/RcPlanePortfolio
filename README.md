@@ -28,6 +28,14 @@ A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled af
 - Solved this by exporting the flattened patterns to true scale as engineering blueprints (via Adobe PDF software) and having them printed full-size on engineering paper at Staples.
 - Hand-cut the entire airframe from 5 mm foam board using the full-scale prints directly as templates
 
+## Control Surfaces & Landing Gear
+
+- **Ailerons** — one servo, actuating both ailerons together for roll control
+- **Rudder** — one servo, for yaw control
+- **Flaps** — two servos, one per flap, controlled independently rather than ganged together
+- In practice, the independently-actuated flaps proved more effective for turning the plane than the rudder
+- **Landing gear** — 3D printed and passive, with no steering or retraction control; this fixed, uncontrolled setup caused problems during taxiing and landing
+
 ## Materials & Weight
 
 | Part | Spec | Qty | Weight |
