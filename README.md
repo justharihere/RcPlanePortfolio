@@ -62,8 +62,4 @@ A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled af
 | Motor configuration | Single engine, A2212 1000KV, 1045 prop |
 | Airframe material | 5 mm foam board with kraft paper layers|
 
-## Media
-
-*(To be added — build photos and flight footage)*
-
 ---
