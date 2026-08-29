@@ -1,6 +1,6 @@
 # RC Plane - Foam Board Trainer
 
-A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled after the main proportions of the B-52 Superfortress for its lift-heavy, slow, and efficient flight characteristics. Airfoil selected from the UIUC NACA airfoil database by comparing lift, drag, and angle-of-attack data.
+A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled after the main proportions of the B-29 Superfortress for its lift-heavy, slow, and efficient flight characteristics. Airfoil selected from the UIUC NACA airfoil database by comparing lift, drag, and angle-of-attack data.
 
 *Built summer 2026*
 
@@ -57,7 +57,7 @@ A 1 m wingspan fixed-wing RC plane, hand-cut from 5 mm foam board and modeled af
 |---|---|
 | Wingspan | 1 m |
 | Cruise speed | ~10.5 m/s |
-| Design inspiration | B-52 Superfortress (proportional dimensions) |
+| Design inspiration | B-29 Superfortress (proportional dimensions) |
 | Airfoil source | UIUC NACA airfoil database |
 | Motor configuration | Single engine, A2212 1000KV, 1045 prop |
 | Airframe material | 5 mm foam board with kraft paper layers|
